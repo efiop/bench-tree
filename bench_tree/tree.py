@@ -4,11 +4,11 @@ class Tree(ABC):
     def add(self, key, oid):
         pass
 
-    @classmethod
-    def from_buf(cls, byts):
+    def digest(self):
         pass
 
-    def as_buf(self):
+    @classmethod
+    def from_byts(cls, byts):
         pass
 
     def __iter__(self):
