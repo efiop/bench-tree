@@ -1,0 +1,12 @@
+namespace Tree;
+
+table TreeEntry {
+	key:[string];
+	oid:string;
+}
+
+table Tree {
+	entries:[TreeEntry];
+}
+
+root_type Tree;
